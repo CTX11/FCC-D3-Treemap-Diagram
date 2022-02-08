@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Tree Map Diagram</title>
+</head>
+<body>
+    <h1>Tree Map Diagram FCC</h1>
+    <h2 id="title">Top Ranked Movies</h2>
+    <h3 id="description"> Top 95 Highest Earning Movies of All-Time</h3>
+<div id='tooltip'>
+
+    
+</div>
+
+    <svg id="canvas">
+
+    </svg>
+    <svg id='legend'>
+        <g>
+            <rect class="legend-item" x="10" y="0" width="40" height="40" fill="Green"></rect>
+            <text x="60" y="20" fill="Green">Action</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="40" width="40" height="40" fill="Pink"></rect>
+            <text x="60" y="60" fill="Pink">Drama</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="80" width="40" height="40" fill="Blue"></rect>
+            <text x="60" y="100" fill="Blue">Adventure</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="120" width="40" height="40" fill="Teal"></rect>
+            <text x="60" y="140" fill="Teal">Family</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="160" width="40" height="40" fill="Red"></rect>
+            <text x="60" y="180" fill="Red">Animation</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="200" width="40" height="40" fill="Purple"></rect>
+            <text x="60" y="220" fill="Purple">Comedy</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="10" y="240" width="40" height="40" fill="Orange"></rect>
+            <text x="60" y="260" fill="Orangered">Biography</text>
+        </g>
+
+    </svg>
+</body>
+<script defer src="./script.js"></script>
+<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>

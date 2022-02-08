@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+html, body {
+    min-height: 100%;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: brown;
+    font-family: 'Abel', sans-serif ;
+}
+
+svg {
+    background-color: #848B79;
+    border: 5px solid black;
+    cursor: pointer;
+
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#legend {
+    min-height: 300px;
+    background-color: black;
+    border: 5px solid #52D017;
+}
+
+#tooltip {
+    visibility: hidden;
+}
+
+.tile:hover {
+    fill: white;
+}
